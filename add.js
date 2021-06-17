@@ -32,5 +32,6 @@ pup
   })
 })
   .then(function(data){
+    
       return gpage.click(data);
   })
